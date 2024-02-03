@@ -14,6 +14,7 @@ enum CoordinatorType{
     case home
     case order
     case profile
+    case list
 }
 
 protocol CoordinatorProtocol: AnyObject {

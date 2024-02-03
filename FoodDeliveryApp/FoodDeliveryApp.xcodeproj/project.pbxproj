@@ -31,6 +31,11 @@
 		03CF7ECE2B6E939300526F20 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CF7ECD2B6E939300526F20 /* Coordinator.swift */; };
 		03CF7ED02B6E98AD00526F20 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CF7ECF2B6E98AD00526F20 /* AppCoordinator.swift */; };
 		03CF7ED22B6E996C00526F20 /* OnboardingCoordintaor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CF7ED12B6E996C00526F20 /* OnboardingCoordintaor.swift */; };
+		03CF7ED42B6EA1C600526F20 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CF7ED32B6EA1C600526F20 /* HomeCoordinator.swift */; };
+		03CF7ED62B6EA20B00526F20 /* OrderCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CF7ED52B6EA20B00526F20 /* OrderCoordinator.swift */; };
+		03CF7ED82B6EA22A00526F20 /* ListCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CF7ED72B6EA22A00526F20 /* ListCoordinator.swift */; };
+		03CF7EDA2B6EA24700526F20 /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CF7ED92B6EA24700526F20 /* ProfileCoordinator.swift */; };
+		03CF7EDC2B6EA27400526F20 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CF7EDB2B6EA27400526F20 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +65,11 @@
 		03CF7ECD2B6E939300526F20 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		03CF7ECF2B6E98AD00526F20 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		03CF7ED12B6E996C00526F20 /* OnboardingCoordintaor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordintaor.swift; sourceTree = "<group>"; };
+		03CF7ED32B6EA1C600526F20 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		03CF7ED52B6EA20B00526F20 /* OrderCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCoordinator.swift; sourceTree = "<group>"; };
+		03CF7ED72B6EA22A00526F20 /* ListCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCoordinator.swift; sourceTree = "<group>"; };
+		03CF7ED92B6EA24700526F20 /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
+		03CF7EDB2B6EA27400526F20 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +173,7 @@
 		03CF7ECB2B6E937700526F20 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				03CF7EDB2B6EA27400526F20 /* TabBarController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -173,6 +184,10 @@
 				03CF7ECD2B6E939300526F20 /* Coordinator.swift */,
 				03CF7ECF2B6E98AD00526F20 /* AppCoordinator.swift */,
 				03CF7ED12B6E996C00526F20 /* OnboardingCoordintaor.swift */,
+				03CF7ED32B6EA1C600526F20 /* HomeCoordinator.swift */,
+				03CF7ED52B6EA20B00526F20 /* OrderCoordinator.swift */,
+				03CF7ED72B6EA22A00526F20 /* ListCoordinator.swift */,
+				03CF7ED92B6EA24700526F20 /* ProfileCoordinator.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -266,7 +281,12 @@
 				03CF7EC92B6E58D600526F20 /* AppColors.swift in Sources */,
 				03CF7ED22B6E996C00526F20 /* OnboardingCoordintaor.swift in Sources */,
 				03CF7ED02B6E98AD00526F20 /* AppCoordinator.swift in Sources */,
+				03CF7ED62B6EA20B00526F20 /* OrderCoordinator.swift in Sources */,
 				03CF7EC52B6E522000526F20 /* UIFont+Extension.swift in Sources */,
+				03CF7EDA2B6EA24700526F20 /* ProfileCoordinator.swift in Sources */,
+				03CF7ED82B6EA22A00526F20 /* ListCoordinator.swift in Sources */,
+				03CF7ED42B6EA1C600526F20 /* HomeCoordinator.swift in Sources */,
+				03CF7EDC2B6EA27400526F20 /* TabBarController.swift in Sources */,
 				030715202B695FE700DBBA7B /* SceneDelegate.swift in Sources */,
 				03CF7ECE2B6E939300526F20 /* Coordinator.swift in Sources */,
 			);
