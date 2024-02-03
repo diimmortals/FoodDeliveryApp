@@ -29,6 +29,8 @@
 		03CF7EC72B6E57BC00526F20 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CF7EC62B6E57BC00526F20 /* UIColor+Extension.swift */; };
 		03CF7EC92B6E58D600526F20 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CF7EC82B6E58D600526F20 /* AppColors.swift */; };
 		03CF7ECE2B6E939300526F20 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CF7ECD2B6E939300526F20 /* Coordinator.swift */; };
+		03CF7ED02B6E98AD00526F20 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CF7ECF2B6E98AD00526F20 /* AppCoordinator.swift */; };
+		03CF7ED22B6E996C00526F20 /* OnboardingCoordintaor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CF7ED12B6E996C00526F20 /* OnboardingCoordintaor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		03CF7EC62B6E57BC00526F20 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		03CF7EC82B6E58D600526F20 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		03CF7ECD2B6E939300526F20 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		03CF7ECF2B6E98AD00526F20 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		03CF7ED12B6E996C00526F20 /* OnboardingCoordintaor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCoordintaor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +171,8 @@
 			isa = PBXGroup;
 			children = (
 				03CF7ECD2B6E939300526F20 /* Coordinator.swift */,
+				03CF7ECF2B6E98AD00526F20 /* AppCoordinator.swift */,
+				03CF7ED12B6E996C00526F20 /* OnboardingCoordintaor.swift */,
 			);
 			path = Coordinators;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 				0307151E2B695FE700DBBA7B /* AppDelegate.swift in Sources */,
 				03CF7EC72B6E57BC00526F20 /* UIColor+Extension.swift in Sources */,
 				03CF7EC92B6E58D600526F20 /* AppColors.swift in Sources */,
+				03CF7ED22B6E996C00526F20 /* OnboardingCoordintaor.swift in Sources */,
+				03CF7ED02B6E98AD00526F20 /* AppCoordinator.swift in Sources */,
 				03CF7EC52B6E522000526F20 /* UIFont+Extension.swift in Sources */,
 				030715202B695FE700DBBA7B /* SceneDelegate.swift in Sources */,
 				03CF7ECE2B6E939300526F20 /* Coordinator.swift in Sources */,
